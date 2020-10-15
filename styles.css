@@ -1,0 +1,33 @@
+body {
+    font-family: Segoe UI,Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 2;
+    background-image: url(pictures/roman-kraft-_Zua2hyvTBk-unsplash.jpg),
+    url(pictures/julius-drost-nsrSyI-JUYg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.newsStory {
+    border: lightgray solid 1px;
+    background-color: lightgray;
+    size: auto;
+    padding: 3px;
+    margin: 6px;
+}
+
+.container-fluid {
+    margin-top: 10px;
+    border: grey solid 3px;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.navbar {
+    margin: 0;
+    min-height: 40px;
+    background-color: #00bc00;
+}
