@@ -25,7 +25,7 @@ async function fetchNewsNumbers() {
         let newsStory = newsStories[x]
         let url = urls[x]
         let storyID = bucketOfNumbers[x]
-        newsStory.style.backgroundColor = "red"
+        //newsStory.style.backgroundColor = "red" //checking to see if working
         let storyUrl = `https://hacker-news.firebaseio.com/v0/item/${storyID}.json?print=pretty`
         //console.log(storyUrl)
         getTheStories(storyUrl, title, url)
