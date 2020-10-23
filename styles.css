@@ -1,33 +1,54 @@
 body {
-    font-family: Segoe UI,Helvetica,Arial,sans-serif;
-    font-size: 12px;
+    font-family: Poynter, "Franklin Gothic Book",sans-serif;
     line-height: 2;
-    background-image: url(pictures/roman-kraft-_Zua2hyvTBk-unsplash.jpg),
-    url(pictures/julius-drost-nsrSyI-JUYg-unsplash.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    opacity: 90%;
 }
 
 .newsStory {
-    border: lightgray solid 1px;
-    background-color: #949f91;
+    border: lightgray solid 2px;
     size: auto;
     padding: 3px;
     margin: 6px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
-.container-fluid {
-    margin-top: 10px;
-    border: grey solid 3px;
+a:link{
+    color: #000000;
+}
+a:visited{
+    color: #3c3232;
+}
+#main-container {
+    width: 96%;
+    margin: auto;
+    border: #404040 solid 3px;
+    background-color: rgba(127, 127, 127, 0.8);
+    opacity: unset;
 }
 
 .jumbotron {
     margin-bottom: 0;
+    background-image: url("pictures/hayden-walker-ihiEd-_4TNY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-shadow: black;
+    font-weight: bold;
+    color: #C3C3C3;
 }
 
 .navbar {
-    margin: 0;
+    margin-bottom: 10px;
     min-height: 40px;
-    background-color: #00bc00;
+    opacity: 50%;
+}
+#todays-date{
+    font-family: "Times New Roman";
+    font-size: larger;
+    font-weight: bolder;
 }
